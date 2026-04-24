@@ -66,9 +66,10 @@
 import { computed, onMounted, ref } from "vue";
 import { n18iMessages } from "./n18i";
 
-const androidDownloadUrl = "https://ensightful.cn/downloadApp/IoT Meter.apk";
+const androidDownloadUrl =
+  "https://play.google.com/store/apps/details?id=com.MignonPoupon.lingju";
 const iphoneDownloadUrl =
-  "https://apps.apple.com/cn/app/iot-meter/id6503274829";
+  "https://apps.apple.com/cn/app/mignonpoupon/id6761771917";
 
 const currentLocale = ref("zh");
 const currentPhone = ref(-1);
